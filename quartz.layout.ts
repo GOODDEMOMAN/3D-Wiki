@@ -38,10 +38,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
+   Component.Explorer({
       filterFn: (node) => {
-        const omit = new Set(["99_SYSTEM"])
-        return !omit.has(node.name)
+        // Добавили вариант с пробелом, так как Quartz меняет подчеркивания на пробелы
+        const omit = new Set(["99_SYSTEM", "99 System"])
+        return !omit.has(node.displayName)
       },
     }),
   ],
@@ -67,10 +68,11 @@ left: [
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
+ Component.Explorer({
       filterFn: (node) => {
-        const omit = new Set(["99_SYSTEM"])
-        return !omit.has(node.name)
+        // Добавили вариант с пробелом, так как Quartz меняет подчеркивания на пробелы
+        const omit = new Set(["99_SYSTEM", "99 System"])
+        return !omit.has(node.displayName)
       },
     }),
   ],
