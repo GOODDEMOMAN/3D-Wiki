@@ -1,3 +1,10 @@
+---
+software:
+  - "[[Marvelous Designer]]"
+  - "[[ZBrush]]"
+draft: false
+description: Превращаем грязь симуляций в чистовик для скульпта.
+---
 ## 1. Подготовка и группы
 Из **Marvelous Designer** нужно экспортировать сшитую и плоскую одежду.
 

@@ -1,4 +1,6 @@
 ---
 title: Добро пожаловать
 ---
-База знаний для 3D художника. Тест публикаций
+Cофт:
+[[Marmoset Toolbag]] | [[Substance Painter]] | [[ZBrush]] | [[Marvelous Designer]]
+
