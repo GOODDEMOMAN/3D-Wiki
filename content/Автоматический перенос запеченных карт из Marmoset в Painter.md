@@ -1,7 +1,5 @@
 ---
-tags:
-  - marmoset-toolbag
-  - substance-painter
+software:
 ---
 
 Для автоматического переноса карт запеченных в Marmoset нужно позаботиться о нейминге.  
