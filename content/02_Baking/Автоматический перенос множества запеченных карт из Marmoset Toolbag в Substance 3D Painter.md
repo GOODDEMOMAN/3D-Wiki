@@ -51,11 +51,14 @@ Get-ChildItem -Filter "_*" | Rename-Item -NewName {$_.Name -replace "^_", ""}
 
 Скрипт автоматически удалит нижнее подчеркивание в начале имени у всех файлов в папке.
 
+Либо использовать батник с этой же командой (положить в папку с картами)
+![[99_SYSTEM/Attachments/renameforpainter.bat]]
 ## Шаг 4: Импорт в Substance 3D Painter
 
 1. В Substance 3D Painter при создании нового проекта откройте раздел **Import baked maps**.
 2. Нажмите **Add** и выберите очищенные карты. 
 3. Программа автоматически подцепит к каждому текстурному сету соответствующий набор мешмап.
+
 
 ## Источники 
 * [Официальная документация Substance 3D Painter: Mesh Maps](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-map#)
