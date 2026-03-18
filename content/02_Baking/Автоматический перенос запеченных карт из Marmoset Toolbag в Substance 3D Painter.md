@@ -56,3 +56,7 @@ Get-ChildItem -Filter "_*" | Rename-Item -NewName {$_.Name -replace "^_", ""}
 1. В Substance 3D Painter при создании нового проекта откройте раздел **Import baked maps**.
 2. Нажмите **Add** и выберите очищенные карты. 
 3. Программа автоматически подцепит к каждому текстурному сету соответствующий набор мешмап.
+
+Источники:
+1. https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-map#
+2. 
