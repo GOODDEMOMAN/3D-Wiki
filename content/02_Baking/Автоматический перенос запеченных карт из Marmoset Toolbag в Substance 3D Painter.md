@@ -25,7 +25,7 @@ description: Перекидываем карты бейка автоматиче
 | Opacity | `opacityBase` | `opacity_base` |
 
 ![Настройка нейминга в Marmoset Toolbag](image.webp)
-
+> [!tip] Сохранение пресета > Чтобы не прописывать суффиксы вручную при каждом запекании, сохраните настроенный нейминг как пресет (Preset) в Marmoset Toolbag. Если вы запекаете карты исключительно для Substance 3D Painter, установите этот пресет по умолчанию (Default).
 ## Шаг 2: Обход принудительного префикса при экспорте
 
 При экспорте Marmoset Toolbag принудительно добавляет собственное имя к файлу (например, получается `Bake_Mesh01_normal_base` вместо чистого `Mesh01_normal_base`). Из-за лишнего префикса Substance 3D Painter не распознает эти карты автоматически. Отключить добавление префикса внутри Marmoset нельзя.
@@ -57,6 +57,5 @@ Get-ChildItem -Filter "_*" | Rename-Item -NewName {$_.Name -replace "^_", ""}
 2. Нажмите **Add** и выберите очищенные карты. 
 3. Программа автоматически подцепит к каждому текстурному сету соответствующий набор мешмап.
 
-Источники:
-1. https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-map#
-2. 
+## Источники 
+* [Официальная документация Substance 3D Painter: Mesh Maps](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-map#)
