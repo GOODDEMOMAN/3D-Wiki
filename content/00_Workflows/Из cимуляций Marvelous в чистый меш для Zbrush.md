@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 description: Превращаем грязь симуляций в чистовик для скульпта.
 tags:
   - MarvelousDesigner
